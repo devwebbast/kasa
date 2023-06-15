@@ -1,0 +1,44 @@
+.home-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .bg-img {
+        max-width: 1240px;
+        width: 100%;
+        height: 20vh;
+        border-radius: 25px;
+        margin: auto;
+        background: url(../../images/bg-img.svg);
+        background-position: center;
+        background-size: cover;
+        
+        
+        
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+            color: white;
+            font-family: $font-family-primary;
+            font-weight: 500;
+            font-size: 48px;
+        }
+    }
+
+    .cards-container{
+        max-width: 1240px;
+        width: 100%;
+        margin: auto;
+        background: #f7f7f7;
+        border-radius: 25px;
+    }
+
+    .cards-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        justify-content: center;
+    }
+}
