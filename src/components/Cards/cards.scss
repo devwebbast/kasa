@@ -1,17 +1,31 @@
-* {
-    outline: 1px solid red;
-}
-
 .card {
     display: flex;
     flex-direction: column;
     width: 340px;
     height: 340px;
-    background: linear-gradient(180deg, #FF6060 0%, rgba(0, 0, 0, 0.5) 100%);
-    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(255,96,96,1) 61%, rgba(0,0,0,0.3897934173669467) 221%);
+    border-radius: 10px;
+    font-family: $font-family-primary;
+    -webkit-box-shadow: 15px -3px 15px -6px rgba(79,79,79,0.52); 
+    box-shadow: 15px -3px 15px -6px rgba(79,79,79,0.52);
+    &:hover{
+        transform: scale(1.1);
+    }
     
     img {
-        height: 300px;
+        height: 340px;
+        border-radius: 10px 10px 0 0;
     }
+
+    h3 {
+        color: white;
+        width: 250px;
+        margin-left: 10px;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 290px;
+        white-space: normal;
+    }
+
 
 }

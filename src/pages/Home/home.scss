@@ -1,7 +1,9 @@
 .home-section {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 43px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 
     .bg-img {
         max-width: 1240px;
@@ -11,10 +13,7 @@
         margin: auto;
         background: url(../../images/bg-img.svg);
         background-position: center;
-        background-size: cover;
-        
-        
-        
+        background-size: cover;     
 
         h3 {
             display: flex;
@@ -38,7 +37,10 @@
     .cards-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 60px;
-        justify-content: center;
+        gap: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 56px;
+        margin-bottom: 30px;
     }
 }
