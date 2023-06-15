@@ -1,0 +1,45 @@
+.logo {
+    width: 210px;
+    height: 80px;
+}
+
+.header-style {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    margin: auto;
+}
+
+.nav-link a {
+    width: 500px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: $primary;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+      width: 145px;  
+      margin-left: 20px;
+    }
+
+    .nav-link a {
+        width: 140px;
+        font-size: 12px;
+        padding: 10px;
+        margin-left: 0;
+        text-transform: uppercase;
+        font-family: $font-family-primary;
+        // &:first-child {
+        //     text-decoration: underline;
+        // }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
