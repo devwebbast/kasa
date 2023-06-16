@@ -1,1 +1,8 @@
-$xs-small: "screen and (max-width: 768px)"; 
+// EXTRA SMALL
+$xs-small: "screen and (max-width: 561px)";
+
+// SMALL MEDIUM
+$sm-md: "screen and (min-width: 562px) and (max-width: 776px)";
+
+// MEDIUM-LARGE
+$md-lg: "screen and (min-width: 777px)";

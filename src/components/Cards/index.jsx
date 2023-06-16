@@ -1,4 +1,5 @@
-import { logementsList } from "../../datas/logementsList"
+import logementsList  from "../../datas/logementsList"
+import '../../sass/main.scss'
 
 
 function Cards (){
@@ -6,7 +7,7 @@ function Cards (){
         <div className="cards-container">
         <ul className="cards-list">
             {logementsList.map(logement => (
-                <li key={logement.id} className="card">
+                <li key={logement.id} className="card" onClick={() => handleClick(logement.id)}>
                     <img src={logement.cover} alt={logement.title} />
                     <h3>{logement.title}</h3>
                 </li>
@@ -14,6 +15,10 @@ function Cards (){
         </ul>
     </div>
     )
+}
+
+function handleClick(logementId) {
+    window.location.href = `/logements/${logementId}`
 }
 
 export default Cards

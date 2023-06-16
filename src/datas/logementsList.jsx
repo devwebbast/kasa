@@ -1,4 +1,4 @@
-export const logementsList = 
+const logementsList = 
 [
     {
     "id": "c67ab8a7",
@@ -619,3 +619,4 @@ export const logementsList =
     }
     ]
 
+export default logementsList

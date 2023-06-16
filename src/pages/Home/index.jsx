@@ -1,13 +1,17 @@
 import Cards from '../../components/Cards'
+import '../../sass/main.scss'
 
 function Home (){
  
     return(
         <section className="home-section">
             <div className="bg-img">
-                <h3>Chez vous, partout et ailleurs</h3>
+                <div className="bg-filter"></div>
+                    <div className="bg-title">
+                        <h1>Chez vous, partout et ailleurs</h1>
+                </div>
             </div>
-            <Cards />
+            <Cards /> 
         </section>
     )
 }

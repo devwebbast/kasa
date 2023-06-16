@@ -1,13 +1,24 @@
+// BASE
 @import 'base/reset.scss';
 @import 'base/typography.scss';
+
+// UTILS
 @import 'utils/variables.scss';
-@import '../pages/Error/error.scss';
 @import 'utils/responsive.scss';
-@import '../components/Header/header.scss';
-@import '../components/Footer/footer.scss';
-@import '../pages/Home/home.scss';
-@import '../components/Cards/cards.scss';
+
+// LAYOUT
+@import '../sass/layout/error.scss';
+@import './layout/cards.scss';
+@import '../sass/layout/header.scss';
+@import '../sass/layout/footer.scss';
+
+// PAGES
+@import '../sass/page/home.scss';
+@import '../sass/page/about.scss';
 
 
-
+//STYLE
+body {
+    font-family: $font-family-primary;
+}
 

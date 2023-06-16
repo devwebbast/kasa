@@ -3,7 +3,7 @@ import logo from '../../images/logo.svg'
 import '../../sass/main.scss'
 function Header (){
     return(
-        <nav>
+        <nav className='navbar'>
             <div className="header-style">
                 <img className='logo' src={logo} alt='Logo Kasa' />
                 <div className="nav-link">

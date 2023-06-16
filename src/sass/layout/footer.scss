@@ -1,0 +1,29 @@
+.footer-style {
+    background: black;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 209px;
+
+    img {
+        height: 39.44px;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+// RESPONSIVE MOBILE
+@media #{$xs-small} {
+    .footer-style {
+        padding: 10px;
+        h4 {
+            font-size: 12px;
+        }
+    }
+    
+}
