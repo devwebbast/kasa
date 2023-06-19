@@ -16,9 +16,11 @@
 @import '../sass/page/home.scss';
 @import '../sass/page/about.scss';
 
+//COMPONENTS
+@import '../sass/components/accomodation.scss';
+@import '../sass/components/carousel.scss';
 
 //STYLE
 body {
     font-family: $font-family-primary;
 }
-

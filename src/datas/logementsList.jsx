@@ -617,6 +617,6 @@ const logementsList =
     "Rivoli"
     ]
     }
-    ]
+]
 
 export default logementsList

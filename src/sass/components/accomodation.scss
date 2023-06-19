@@ -1,0 +1,150 @@
+.accomodation-img{
+    max-width: 1240px;
+    height: 415px;
+    margin: auto;
+
+    img {
+        width: 100%;
+        height: 415px;
+        object-fit: cover;
+    }
+}
+
+.accomodation-content {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin: auto;
+    color: $primary;
+
+    .content-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100px;
+        
+
+        h2 {
+            font-size: 36px;
+        }
+
+        h3 {
+            font-size: 18px;
+            
+        }
+
+        .tags {
+            ul{
+                display: flex;
+                margin-top: 20px;
+                
+            }
+
+            li {
+                width: 150px;
+                height: 25px;
+                border: 1px solid $primary;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                background: $primary;
+                color: white;
+                font-size: 14px;
+                margin-right: 10px;
+            }
+        } 
+        
+    }
+
+    .content-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .content-name {
+            display: flex;
+            align-items: center;
+
+            h3 {
+              display: flex;
+              align-items: center;
+              text-align: right;
+              width: 93px;
+              font-size: 18px;
+            }
+        }
+
+        .content-picture {
+            display: flex;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: #C4C4C4;
+            margin-left: 10px;
+        }
+        .rating-stars {
+            display: flex;
+            width: 24px;
+            height: 24px;
+            color: #E3E3E3; /* Couleur de base des étoiles */
+            gap: 5px;
+          }
+          
+          .rating-stars .filled {
+            color: $primary; /* Couleur des étoiles remplies */
+          }
+          
+          .rating-stars .empty {
+            color: #E3E3E3; /* Couleur des étoiles vides */
+          }
+        
+    }
+
+}
+
+.accomodation-collapse{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
+    padding: 20px 0;
+    
+    .collapse-style {
+        background: $primary;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 582px;
+        border-radius: 10px;
+
+        h3 {
+            padding: 10px;
+        }
+
+        .collapse-icon {
+            width: 24px;
+            height: 40px;
+            padding: 5px;
+        }
+
+    }
+    .content-item-style{
+        color: $primary;
+        background: $background-color-primary;
+        border-radius: 5px;         
+        font-size: 18px;
+        padding: 15px;
+        line-height: 26px;
+        max-width: 582px;
+        width: 100%;
+
+        li {
+            font-size: 18px;
+        }
+    }
+}
